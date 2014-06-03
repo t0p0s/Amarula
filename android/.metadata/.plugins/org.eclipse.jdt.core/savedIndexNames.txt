@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/kado/Documents/topos/Amarula/android/.metadata/.plugins/org.eclipse.jdt.core
+2345862324.index
+3619759342.index
+1951242669.index
