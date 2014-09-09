@@ -21,8 +21,8 @@
 		7DD7645D192AD84500B02BCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD7643F192AD84500B02BCC /* UIKit.framework */; };
 		7DD76465192AD84500B02BCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD76463192AD84500B02BCC /* InfoPlist.strings */; };
 		7DD76467192AD84500B02BCC /* EventosTopoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD76466192AD84500B02BCC /* EventosTopoTests.m */; };
-		7DD76474192AE8A700B02BCC /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD76473192AE8A700B02BCC /* EventsViewController.m */; };
-		7DD76479192AEBB800B02BCC /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD76478192AEBB800B02BCC /* CreateEventViewController.m */; };
+		7DD76474192AE8A700B02BCC /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD76473192AE8A700B02BCC /* EventListViewController.m */; };
+		7DD76479192AEBB800B02BCC /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD76478192AEBB800B02BCC /* EventViewController.m */; };
 		7DD7647C192AEC6D00B02BCC /* EventsConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD7647B192AEC6D00B02BCC /* EventsConstants.m */; };
 /* End PBXBuildFile section */
 
@@ -56,10 +56,10 @@
 		7DD76462192AD84500B02BCC /* EventosTopoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventosTopoTests-Info.plist"; sourceTree = "<group>"; };
 		7DD76464192AD84500B02BCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DD76466192AD84500B02BCC /* EventosTopoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventosTopoTests.m; sourceTree = "<group>"; };
-		7DD76472192AE8A700B02BCC /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
-		7DD76473192AE8A700B02BCC /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
-		7DD76477192AEBB800B02BCC /* CreateEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateEventViewController.h; sourceTree = "<group>"; };
-		7DD76478192AEBB800B02BCC /* CreateEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateEventViewController.m; sourceTree = "<group>"; };
+		7DD76472192AE8A700B02BCC /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		7DD76473192AE8A700B02BCC /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
+		7DD76477192AEBB800B02BCC /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		7DD76478192AEBB800B02BCC /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		7DD7647A192AEC6D00B02BCC /* EventsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsConstants.h; sourceTree = "<group>"; };
 		7DD7647B192AEC6D00B02BCC /* EventsConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,8 +184,8 @@
 		7DD76475192AEA7000B02BCC /* Create Event */ = {
 			isa = PBXGroup;
 			children = (
-				7DD76477192AEBB800B02BCC /* CreateEventViewController.h */,
-				7DD76478192AEBB800B02BCC /* CreateEventViewController.m */,
+				7DD76477192AEBB800B02BCC /* EventViewController.h */,
+				7DD76478192AEBB800B02BCC /* EventViewController.m */,
 			);
 			name = "Create Event";
 			sourceTree = "<group>";
@@ -193,8 +193,8 @@
 		7DD76476192AEB9F00B02BCC /* Events Table */ = {
 			isa = PBXGroup;
 			children = (
-				7DD76472192AE8A700B02BCC /* EventsViewController.h */,
-				7DD76473192AE8A700B02BCC /* EventsViewController.m */,
+				7DD76472192AE8A700B02BCC /* EventListViewController.h */,
+				7DD76473192AE8A700B02BCC /* EventListViewController.m */,
 			);
 			name = "Events Table";
 			sourceTree = "<group>";
@@ -298,8 +298,8 @@
 			files = (
 				7DD7647C192AEC6D00B02BCC /* EventsConstants.m in Sources */,
 				7DD76452192AD84500B02BCC /* ViewController.m in Sources */,
-				7DD76479192AEBB800B02BCC /* CreateEventViewController.m in Sources */,
-				7DD76474192AE8A700B02BCC /* EventsViewController.m in Sources */,
+				7DD76479192AEBB800B02BCC /* EventViewController.m in Sources */,
+				7DD76474192AE8A700B02BCC /* EventListViewController.m in Sources */,
 				7DD7644C192AD84500B02BCC /* AppDelegate.m in Sources */,
 				7DD76448192AD84500B02BCC /* main.m in Sources */,
 			);
@@ -506,6 +506,7 @@
 				7DD7646C192AD84500B02BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD7646D192AD84500B02BCC /* Build configuration list for PBXNativeTarget "EventosTopoTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				7DD7646F192AD84500B02BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

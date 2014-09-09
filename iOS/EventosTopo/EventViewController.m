@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Fede. All rights reserved.
 //
 
-#import "CreateEventViewController.h"
+#import "EventViewController.h"
 
-@interface CreateEventViewController ()
+@interface EventViewController ()
 @property (nonatomic, strong) NSMutableArray *events;
 @end
 
-@implementation CreateEventViewController
+@implementation EventViewController
 
 - (void)viewDidLoad
 {

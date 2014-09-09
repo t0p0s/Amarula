@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Fede. All rights reserved.
 //
 
-#import "EventsViewController.h"
+#import "EventListViewController.h"
 
-@interface EventsViewController ()
+@interface EventListViewController ()
 @property (strong, nonatomic) IBOutlet UITableView *eventsTable;
 @property (strong, nonatomic) NSMutableArray *events;
 
 @end
 
-@implementation EventsViewController
+@implementation EventListViewController
 
 -(void)viewWillAppear:(BOOL)animated
 {
